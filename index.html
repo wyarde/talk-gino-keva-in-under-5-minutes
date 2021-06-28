@@ -58,8 +58,18 @@ July 1, 2021<br />
 </ul>
 </section>
 
+<section>
 <section id="gino-keva" class="title-slide slide level2">
 <h2>Gino Keva</h2>
+<p><sub><sup><em>A Git notes key value store</em></sup></sub></p>
+<ul>
+<li><span style="color:Moccasin"><code>gino-keva set|unset|get|list</code></span></li>
+<li>Gino Keva operates on the current commit</li>
+<li>If no note is available, nearest one is copied over</li>
+</ul>
+</section>
+<section id="example-syntax" class="slide level3">
+<h3>Example syntax</h3>
 <pre class="console"><code>$ gino-keva set foo bar
 $ gino-keva get foo
 bar</code></pre>
@@ -74,8 +84,18 @@ $ gino-keva set counter 13 &amp;&amp; gino-keva list
 COUNTER=13
 FOO=bar</code></pre>
 </div>
+</section></section>
+<section>
+<section id="a-build-pipeline" class="title-slide slide level2">
+<h2>A build pipeline</h2>
+<figure>
+<img data-src="images/pipeline.png" alt="New feature, build 46" /><figcaption aria-hidden="true">New feature, build 46</figcaption>
+</figure>
 </section>
-
+<section id="gino-keva-through-history" class="slide level3">
+<h3>Gino Keva through history</h3>
+<p><img data-src="images/git_history.png" /></p>
+</section></section>
 <section id="end" class="title-slide slide level1">
 <h1>End</h1>
 <table>
