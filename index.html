@@ -35,6 +35,47 @@ July 1, 2021<br />
 </p>
 </section>
 
+<section id="section" class="title-slide slide level2">
+<h2><br />
+</h2>
+<div class="r-stack" style="font-size:var(--heading2-size); color:gray">
+<p><span class="fragment fade-out" data-fragment-index="1"><span style="color:White"><strong>Gino Keva</strong></span></span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="1">A <span style="color:White"><strong>Gino Keva</strong></span></span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="2">A <span style="color:White"><strong>Gi</strong></span>t <span style="color:White"><strong>no Keva</strong></span></span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="3">A <span style="color:White"><strong>Gi</strong></span>t <span style="color:White"><strong>no</strong></span>tes <span style="color:White"><strong>Keva</strong></span></span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="4">A <span style="color:White"><strong>Gi</strong></span>t <span style="color:White"><strong>no</strong></span>tes <span style="color:White"><strong>Ke</strong></span>y <span style="color:White"><strong>va</strong></span></span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="5">A <span style="color:White"><strong>Gi</strong></span>t <span style="color:White"><strong>no</strong></span>tes <span style="color:White"><strong>Ke</strong></span>y <span style="color:White"><strong>va</strong></span>lue</span></p>
+<p><span class="fragment fade-in-then-out" data-fragment-index="6">A <span style="color:White"><strong>Gi</strong></span>t <span style="color:White"><strong>no</strong></span>tes <span style="color:White"><strong>Ke</strong></span>y <span style="color:White"><strong>va</strong></span>lue store</span></p>
+</div>
+</section>
+
+<section id="git-notes" class="title-slide slide level2">
+<h2>Git Notes</h2>
+<p><sub><sup><em>Supplement a commit message without changing the commit itself</em></sup></sub></p>
+<ul>
+<li><span style="color:Moccasin"><code>git notes add|remove|show|list</code></span></li>
+<li>Stored as commits in refs/notes/</li>
+</ul>
+</section>
+
+<section id="gino-keva" class="title-slide slide level2">
+<h2>Gino Keva</h2>
+<pre class="console"><code>$ gino-keva set foo bar
+$ gino-keva get foo
+bar</code></pre>
+<div class="element: fragment" data-fragment-index="1">
+<pre class="console"><code>$ gino-keva set counter 12 &amp;&amp; gino-keva list
+COUNTER=12
+FOO=bar</code></pre>
+</div>
+<div class="element: fragment" data-fragment-index="2">
+<pre class="console"><code>$ git commit --allow-empty -m empty
+$ gino-keva set counter 13 &amp;&amp; gino-keva list
+COUNTER=13
+FOO=bar</code></pre>
+</div>
+</section>
+
 <section id="end" class="title-slide slide level1">
 <h1>End</h1>
 <table>
