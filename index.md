@@ -6,6 +6,8 @@ pagetitle: Gino Keva in under 5 minutes
 url-gh: https://github.com/wyarde
 url-gino-keva: https://github.com/philips-software/gino-keva
 url-talk: https://wyarde.github.io/talk-gino-keva-in-under-5-minutes
+x: '<span style="color:White">**'
+xx: "**</span>"
 ---
 
 ## $pagetitle$
@@ -13,6 +15,62 @@ url-talk: https://wyarde.github.io/talk-gino-keva-in-under-5-minutes
 \
 The Gathering\
 $date-meta$\
+
+## \
+
+:::: {.r-stack style="font-size:var(--heading2-size); color:gray"}
+
+[$x$Gino Keva$xx$]{.fragment .fade-out data-fragment-index="1"}
+
+[A $x$Gino Keva$xx$]{.fragment .fade-in-then-out data-fragment-index="1"}
+
+[A $x$Gi$xx$t $x$no Keva$xx$]{.fragment .fade-in-then-out data-fragment-index="2"}
+
+[A $x$Gi$xx$t $x$no$xx$tes $x$Keva$xx$]{.fragment .fade-in-then-out data-fragment-index="3"}
+
+[A $x$Gi$xx$t $x$no$xx$tes $x$Ke$xx$y $x$va$xx$]{.fragment .fade-in-then-out data-fragment-index="4"}
+
+[A $x$Gi$xx$t $x$no$xx$tes $x$Ke$xx$y $x$va$xx$lue]{.fragment .fade-in-then-out data-fragment-index="5"}
+
+[A $x$Gi$xx$t $x$no$xx$tes $x$Ke$xx$y $x$va$xx$lue store]{.fragment .fade-in-then-out data-fragment-index="6"}
+
+::::
+
+## Git Notes
+
+<sub><sup>_Supplement a commit message without changing the commit itself_</sup></sub>
+
+- <span style="color:Moccasin">`git notes add|remove|show|list`</span>
+- Stored as commits in refs/notes/
+
+## Gino Keva
+
+```console
+$$ gino-keva set foo bar
+$$ gino-keva get foo
+bar
+```
+
+:::{.element: class="fragment" data-fragment-index="1"}
+
+```console
+$$ gino-keva set counter 12 && gino-keva list
+COUNTER=12
+FOO=bar
+```
+
+:::
+
+:::{.element: class="fragment" data-fragment-index="2"}
+
+```console
+$$ git commit --allow-empty -m empty
+$$ gino-keva set counter 13 && gino-keva list
+COUNTER=13
+FOO=bar
+```
+
+:::
 
 # End
 
