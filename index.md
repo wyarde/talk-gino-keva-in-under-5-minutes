@@ -45,6 +45,8 @@ $date-meta$\
 
 ## Gino Keva
 
+<sub><sup>_A Git notes key value store_</sup></sub>
+
 - <span style="color:Moccasin">`gino-keva set|unset|get|list`</span>
 - Gino Keva operates on the current commit
 - If no note is available, nearest one is copied over
