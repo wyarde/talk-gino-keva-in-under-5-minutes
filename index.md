@@ -84,7 +84,7 @@ FOO=bar
 
 ![New feature, build 46](images/pipeline.png)
 
-### Git history
+### Gino Keva through history
 
 ![](images/git_history.png)
 
