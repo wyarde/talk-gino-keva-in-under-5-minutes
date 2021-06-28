@@ -45,6 +45,12 @@ $date-meta$\
 
 ## Gino Keva
 
+- <span style="color:Moccasin">`gino-keva set|unset|get|list`</span>
+- Gino Keva operates on the current commit
+- If no note is available, nearest one is copied over
+
+### Example syntax
+
 ```console
 $$ gino-keva set foo bar
 $$ gino-keva get foo
@@ -71,6 +77,14 @@ FOO=bar
 ```
 
 :::
+
+## A build pipeline
+
+![New feature, build 46](images/pipeline.png)
+
+### Git history
+
+![](images/git_history.png)
 
 # End
 
